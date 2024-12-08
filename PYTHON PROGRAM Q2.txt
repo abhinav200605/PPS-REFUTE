@@ -1,0 +1,8 @@
+def calculate_perimeter(length, width, height):
+    perimeter = 4 * (length + width + height)
+    return perimeter
+length = float(input("Enter the length of the cuboid: "))
+width = float(input("Enter the width of the cuboid: "))
+height = float(input("Enter the height of the cuboid: "))
+perimeter = calculate_perimeter(length, width, height)
+print(f"The perimeter of the cuboid is: {perimeter:.2f}")
